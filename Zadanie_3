@@ -1,5 +1,6 @@
 from decimal import Decimal
 
+
 def count():
     result = []
     i = 2.0
