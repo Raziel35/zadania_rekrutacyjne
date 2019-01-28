@@ -1,0 +1,9 @@
+from decimal import Decimal
+
+def count():
+    result = []
+    i = 2.0
+    while i <= 5.5:
+        result.append(Decimal(i))
+        i += 0.5
+    return result
