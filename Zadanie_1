@@ -15,5 +15,5 @@ def post_codes(str1, str2):
                 x = "0" + x
             if i == int(b[0]) and j == int(b[1]):
                 break
-            result.append(str(i) + str("-") + x)
+            result.append(str(i) + "-" + x)
     return result
