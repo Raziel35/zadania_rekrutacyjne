@@ -5,7 +5,7 @@ def post_codes(str1, str2):
     for i in range(int(a[0]), int((b[0])) + 1):
         for j in range(0, 1000):
             if i == int(a[0]):
-                j += int(a[1])
+                j += int(a[1]) + 1
                 if j > 999:
                     break
             x = str(j)
